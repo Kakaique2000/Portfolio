@@ -1,0 +1,22 @@
+
+#parallaxBar{
+	height:400px;
+	background-color:#004c82;
+	background: url(../img/bg.jpg) 50% 0 fixed;
+    position: relative; 	
+}
+#parallaxBar2{
+	height:400px;
+	background-color:#004c82;
+	background: url(../img/bg2.jpg) 100% 0 fixed;
+    position: relative; 	
+}
+
+#skyBg{
+	
+	height:350px;
+	background-color:#004c82;
+	background: url(../img/bg.jpg) 50% 0;
+    position: relative; 	
+}
+
