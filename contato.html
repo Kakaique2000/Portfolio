@@ -61,14 +61,26 @@
         <div class="container bg-dark">
 
             <form style="height:auto " method="post" action="https://formspree.io/kaique.lisboa@gmail.com">
-
+                <div class="form-group text-light mt-3 mx-5">
+                    <div class="row">
+                        <div class="col">
+                            <label for="email"><h5><strong>Seu nome:</strong></h5></label>
+                            <input type="text" name="Nome" placeholder="Ex: Neuri Santos"class="form-control" id="text">
+                        </div>
+                        <div class="col">
+                            <label for="email"><h5><strong>Sua empresa:</strong></h5></label>
+                            <input type="text" name="Empresa" class="form-control" placeholder="Máquina de Lucros Inc." id="text">
+                        </div>
+                    </div>
+                </div>
                 <div class="form-group text-light mt-3 mx-5">
                     <label for="email"><h5><strong>Seu email:</strong></h5></label>
-                    <input type="email" class="form-control" id="email">
+                    <input type="email" name="_replyto" placeholder="SeuEmail@provedor.com" class="form-control" id="email">
                 </div>
                 <div class="form-group text-light mx-5">
                     <label for="pwd"><h5><strong>Sua mensagem:</strong></h5></label>
-                    <textarea class="form-control" rows="6" id="textarea"></textarea>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <textarea class="form-control" name="Mensagem" rows="6" placeholder="Quero te contratar exatamente agora!!" id="textarea"></textarea>
                 </div>
                 <div style="text-align: center">
                     <button type="submit" style="width: 300px" class="btn btn-light my-2">Enviar</button>
