@@ -1,22 +1,221 @@
 
 #parallaxBar{
-	height:400px;
-	background-color:#004c82;
-	background: url(../img/bg.jpg) 50% 0 fixed;
+    height:auto;
+    background-color:#004c82;
+    background: url(../img/bg.jpg) 50% 0 fixed;
     position: relative; 	
 }
 #parallaxBar2{
-	height:400px;
-	background-color:#004c82;
-	background: url(../img/bg2.jpg) 100% 0 fixed;
+    height:auto;
+    background-color:#004c82;
+    background: url(../img/bg2.jpg) 100% 0 fixed;
     position: relative; 	
 }
 
 #skyBg{
-	
-	height:350px;
-	background-color:#004c82;
-	background: url(../img/bg.jpg) 50% 0;
+
+   height:auto;
+    background-color:#004c82;
+    background: url(../img/bg.jpg) 50% 0;
     position: relative; 	
 }
 
+
+
+
+
+@media only screen and (min-width: 1217px) {
+     #grande{font-size: 2.5em;}
+      #mobile{
+        visibility: hidden;
+          margin-bottom: -100px;    }
+    #rp{
+        font-size: 10px;
+    }
+    #nome{
+        font-size: 4.8em;
+    }
+    #sub{
+        font-size: 3.8em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    h2{
+
+    }
+    h3{
+
+    }
+    h4{
+
+    }
+    h5{
+
+    }
+    h6{
+
+    }
+}
+
+@media only screen and (max-width: 1217px) {
+     
+    #grande{font-size: 2.5em;}
+    
+    #mobile{
+        visibility: hidden;
+        margin-bottom: -100px;  
+    }
+    #rp{
+        font-size: 10px;
+    }
+    #nome{
+        font-size: 4.8em;
+    }
+    #sub{
+        font-size: 3.8em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    h2{
+
+    }
+    h3{
+
+    }
+    h4{
+        font-size: 1em;
+    }
+    h5{
+
+    }
+    h6{
+
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+      #mobile{
+        visibility: hidden;
+          margin-bottom: -100px;  
+    }
+     #grande{font-size: 2em;}
+    #rp{
+        font-size: 10px;
+    }
+    #nome{
+        font-size: 4em;
+    }
+    #sub{
+        font-size: 3em;
+    }
+    h1{
+        font-size: 1.7em;
+        
+    }
+    h2{
+
+    }
+    h3{
+
+    }
+    h4{
+
+    }
+    h5{
+
+    }
+    h6{
+
+    }
+    #jumbo-canvas{
+        margin: auto;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 788px) {
+    
+    
+    
+     #grande{font-size: 1.5em;}
+    
+      #mobile{
+        visibility: hidden;
+          margin-bottom: -100px;  
+    }
+    #rp{
+        font-size: 10px;
+    }
+    #nome{
+        font-size: 4em;
+    }
+    #sub{
+        font-size: 3em;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    h2{
+
+    }
+    h3{
+
+    }
+    h4{
+
+    }
+    h5{
+
+    }
+    h6{
+
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    .btn-group{
+        visibility: hidden;
+        margin-bottom: -100px;
+    }
+    
+    #mobile{
+        visibility: visible;
+        margin-bottom: -100px;
+        margin-top: -60px;
+    }
+    
+    #rp{
+        font-size: 10px;
+    }
+    #nome{
+        font-size: 2em;
+    }
+    #sub{
+        font-size: 2em;
+    }
+    h1{
+        font-size: 1em;
+    }
+    h2{
+
+    }
+    h3{
+font-size: 1.2em;
+    }
+    h4{
+font-size: 1em;
+    }
+    h5{
+font-size: 0.8em;
+    }
+    h6{
+
+    }
+}
+
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
