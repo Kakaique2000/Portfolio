@@ -1,10 +1,12 @@
 
 #parallaxBar{
-    height:auto;
+  
     background-color:#004c82;
     background: url(../img/bg.jpg) 50% 0 fixed;
+    background-size: 100vw 100vh;
     position: relative; 	
 }
+
 #parallaxBar2{
     height:auto;
     background-color:#004c82;
@@ -19,6 +21,8 @@
     background: url(../img/bg.jpg) 50% 0;
     position: relative; 	
 }
+
+
 
 
 
